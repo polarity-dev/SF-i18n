@@ -1,0 +1,23 @@
+{
+  "name": "sf-i18n",
+  "version": "1.0.0",
+  "description": "i18n module for express",
+  "main": "lib/sf-i18n.js",
+  "scripts": {
+    "test": "node test/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoluzioniFutura/SF-i18n.git"
+  },
+  "author": "Giovanni Bruno",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "require-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
