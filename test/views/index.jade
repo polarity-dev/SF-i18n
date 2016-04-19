@@ -1,3 +1,10 @@
 h1 sf-i18n test
 
-p i18n.__("language")
+h2=i18n.__('title')
+p=i18n.__(i18n.currentLang)
+
+if currentLang === 'IT'
+  a(href="/en") #{i18n.__("en")}
+
+else
+  a(href="/it") #{i18n.__("it")}  
