@@ -1,9 +1,9 @@
 h1 sf-i18n test
 
 h2=i18n.__('title')
-p=i18n.__(i18n.currentLang)
+p=i18n.__(i18n.currentLocale)
 
-if currentLang === 'IT'
+if currentLocale === 'IT'
   a(href="/en") #{i18n.__("en")}
 
 else
