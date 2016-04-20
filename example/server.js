@@ -18,16 +18,10 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-app.get('/en', function(req, res){
-  i18n.currentLocale = 'EN';
-  res.render('index');
+app.get('/locales/:localeId', function(req, res){
+  i18n.setCurrentLocale(res, req.params.localeId).redirect('/');
 });
 
-app.get('/it', function(req, res){
-  i18n.currentLocale = 'IT';
-  res.render('index');
-});
-
-app.listen(8080, function(){
+app.listen(8080, function() {
   console.log('Listening on port 8080');
 });

@@ -4,7 +4,7 @@
   "description": "i18n module for express",
   "main": "lib/sf-i18n.js",
   "scripts": {
-    "test": "node test/server"
+    "example": "node example/server"
   },
   "repository": {
     "type": "git",

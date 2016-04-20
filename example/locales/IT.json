@@ -1,0 +1,7 @@
+{
+  "title": "Titolo in italiano",
+  "it": "Italiano",
+  "en": "Inglese",
+  "fr": "Francese",
+  "deliberately-missing-element": "This key is missing in FR and EN locales just to test the warning message."
+}

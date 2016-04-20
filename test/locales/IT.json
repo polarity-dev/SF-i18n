@@ -1,7 +1,0 @@
-{
-  "title": "Titolo in italiano",
-  "it": "Italiano",
-  "en": "Inglese",
-  "fr": "Francese",
-  "missing-locale-element-example": "This key is missing in FR and EN locales just to test the warning message."
-}
